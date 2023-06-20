@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to left, #8758ff, #644acd, #463a9c, #2d2a6d, #1a1a40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.todoWrapper{
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 146.2);
+}
+
+.todoWrapper{
+  width: 100%;
+}
+.todoForm{
+  width:100% ;
+}
+.todo-input{
+  outline: none;
+
+}
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #8758ff, #644acd, #463a9c, #2d2a6d, #1a1a40);
+
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 41.2)
+
+}
+.btn button {
+  display: inline-block;
+  padding: -7px 34px;
+  background-color: #1A1A40;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.btn button:hover {
+  background-color: #eceff3;
+  color: black;
+}
+
+.btn button:active {
+  background-color: #003d80;
+}
+
+.complete{
+  color: #c5aeff;
+  text-decoration: line-through; 
+}
+
+
+
+
+
+
+
+
+
+ 
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+   
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+
+
+
+
+.fa-trash {
+  margin-left: 0.75rem;
+
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+ 
